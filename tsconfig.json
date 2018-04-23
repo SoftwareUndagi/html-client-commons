@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true , 
+  "compilerOptions": {
+    "target": "es6",
+    "module": "system",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "watch": false,
+    "outFile": "./dist/index.js",
+    "declaration": true
+
+  },
+  "files": [
+    "HtmlClientCommons.ts",
+    "./node_modules/@types/react/index.d.ts" , 
+    "./node_modules/@types/react-dom/index.d.ts", 
+    "./node_modules/mobile-detect/mobile-detect.d.ts" ,
+    "./node_modules/core-client-commons/dist/index.d.ts" 
+  ]
+
+}
