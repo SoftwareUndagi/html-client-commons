@@ -8,8 +8,4 @@ export interface BaseHtmlComponentState extends BaseComponentState {}
  */
 export abstract class BaseHtmlComponent<PROPS extends BaseHtmlComponentProps , STATE extends BaseHtmlComponentState> extends BaseComponent<PROPS , STATE> {
 
-    getSampleData(): string {
-        return 'gede';
-    }
-
 }

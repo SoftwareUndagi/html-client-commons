@@ -624,6 +624,9 @@ export abstract class BaseSearchableComboBoxMultiple<PROPS extends BaseSearchabl
         let id: string = data.detailCode!;
         this.setStateHelper(
             st => {
+                if ( !st.values ) {
+                    st.values = [] ; 
+                }
                 let idx: number = st.values.indexOf(id);
                 if (idx >= 0) {
                     st.values.splice(idx, 1);

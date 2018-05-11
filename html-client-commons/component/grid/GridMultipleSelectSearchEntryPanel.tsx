@@ -190,7 +190,7 @@ export class GridMultipleSelectSearchEntryPanel extends BaseHtmlComponent<GridMu
                     lookupDataTransformator={def.lookupDataTransformator}
                     selectedDataLabelFormatter={def.selectedDataLabelFormatter}
                     titleGenerator={def.titleGenerator}
-                    ref={d => {
+                    ref={(d: any) => {
                         this.multipleSelector = d!;
                     }} 
                 /><br/>

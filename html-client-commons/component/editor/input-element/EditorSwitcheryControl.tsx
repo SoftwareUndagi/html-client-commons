@@ -136,7 +136,7 @@ export class EditorSwitcheryControl  extends BaseHtmlComponent<EditorSwitcheryCo
             changeHandler={this.changeHandler}
             elementId={this.props.elementId}
             readonlyState={this.props.readonlyState}
-            ref={d => this.switcheryControl = d!}
+            ref={(d: any) => this.switcheryControl = d!}
             defaultChecked={this.props.defaultChecked}
         />
         );

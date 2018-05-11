@@ -197,7 +197,7 @@ export class EditorSwitcheryControlLabeled extends BaseHtmlComponent<EditorSwitc
             cssLabel={this.cssLabel}
             cssDivTextbox={this.cssDivTextbox}
             label={this.props.label}
-            ref={d => {
+            ref={(d: any) => {
                 this.checkerLabel = d !; 
             }}
         >       

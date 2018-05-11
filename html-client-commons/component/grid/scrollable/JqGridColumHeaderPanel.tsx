@@ -141,7 +141,7 @@ export class JqGridColumHeaderPanel extends BaseHtmlComponent<JqGridColumHeaderP
          let dimension: ClientRect = this.thElement.getBoundingClientRect(); 
          this.removeResizer = OffscreenPanelContainer.getOffscreenPanelContainer().appendPanel((
         <ColumnResizeAnimation
-            ref={d => {
+            ref={(d: any) => {
                 this.resizerPanel = d! ;
             }}
             height={this.props.gridHeight}
@@ -182,7 +182,7 @@ export class JqGridColumHeaderPanel extends BaseHtmlComponent<JqGridColumHeaderP
             id={this.props.elementKey + '_root'}
             className="ui-state-default ui-th-column ui-th-ltr"
             style={{ width: this.props.width + 'px', textAlign: 'center' }}
-            ref={d => {
+            ref={(d: any) => {
                 this.thElement = d !; 
             }}
         >

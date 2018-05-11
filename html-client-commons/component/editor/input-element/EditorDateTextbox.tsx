@@ -307,7 +307,7 @@ export class EditorDateTextbox extends BaseHtmlComponent<EditorDateTextboxProps 
             return <span className={this.readonlyCssName}>{lbl}</span> ;
         }
         
-        return <DatePickerWrapper  ref={d => this.datePicker = d!} {...props}/>;
+        return <DatePickerWrapper  ref={(d: any) => this.datePicker = d!} {...props}/>;
     }
     /**
      * setter value dari data

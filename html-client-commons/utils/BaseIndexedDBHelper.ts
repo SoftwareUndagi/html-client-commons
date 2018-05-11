@@ -54,7 +54,7 @@ export abstract class BaseIndexedDBHelper {
     constructor ( public databaseName: string  , version: number ) {
         let request: IDBOpenDBRequest =  indexedDB.open('' , 1);
         request.onupgradeneeded = (ev: IDBVersionChangeEvent) => {
-            let db: IDBDatabase = ev.target['result'] ; // ev.target['result'] ;
+            let db: IDBDatabase = ev.target!['result'] ; // ev.target['result'] ;
             this.onUpgradeNeeded(db , ev) ;
         };
         request.onerror = (evt ) => {
