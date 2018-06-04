@@ -1,7 +1,7 @@
 
 import * as React from "react" ;
 import { GridColumnProps , ColumnRenderFlag , GridButtonProps   } from './SimpleGridMetadata';
-import { CommonCommunicationData , isNull } from 'core-client-commons';
+import { CommonCommunicationData , isNull } from 'core-client-commons/index';
 import { GridColumnRenderer , GridColumnRendererProps } from './GridColumnRenderer'; 
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState  } from '../BaseHtmlComponent';
 /**

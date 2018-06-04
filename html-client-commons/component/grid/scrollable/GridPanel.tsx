@@ -1,6 +1,6 @@
 ﻿import * as React from 'react';
 import { readNested , isNull , FormatterUtils , } from '../../../utils/index';
-import { CommonCommunicationData , DateUtils } from 'core-client-commons';
+import { CommonCommunicationData , DateUtils } from 'core-client-commons/index';
 import { JqGridColumnProps,   JqGridButtonProps } from './GridPanelComponent';
 import { BaseHtmlComponent } from '../../BaseHtmlComponent';
 

@@ -1,7 +1,7 @@
 
 import * as React from "react" ;
 import { GridButtonProps } from './SimpleGridMetadata';
-import { isNull, BaseComponent , BaseComponentProps , BaseComponentState } from 'core-client-commons';
+import { isNull, BaseComponent , BaseComponentProps , BaseComponentState } from 'core-client-commons/index';
 
 export interface GridActionButtonLinkIconProps<DATA> extends GridButtonProps<DATA>  ,  BaseComponentProps {
     data: DATA ; 

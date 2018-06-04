@@ -1,5 +1,5 @@
 import * as React from "react";
-import { CommonCommunicationData , editorsupport , isNull } from 'core-client-commons';
+import { CommonCommunicationData , editorsupport , isNull } from 'core-client-commons/index';
 import { BaseGrid, BaseGridProps , BaseGridState } from './BaseGrid';
 import { i18n } from '../../utils/index';
 import {  GridDataAlign, GridButtonProps, GridColumnProps ,  GridColumnCustomFormatterParameter,  SimpleGridAfterRowDataPanelGeneratorParameter } from './SimpleGridMetadata';

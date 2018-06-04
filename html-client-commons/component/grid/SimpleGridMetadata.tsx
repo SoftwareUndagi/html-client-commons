@@ -1,8 +1,8 @@
 
 import * as React from "react";
-import { CommonCommunicationData , isNull, ListOfValueManager } from 'core-client-commons';
+import { CommonCommunicationData , isNull, ListOfValueManager } from 'core-client-commons/index';
 import { FormatterUtils } from '../../utils/index';
-import {  } from 'core-client-commons';
+import {  } from 'core-client-commons/index';
 import { SimpleQueryOperator } from '../search-form/CommonSearchForm';
 import { BaseHtmlComponent } from "../BaseHtmlComponent";
 import { GridSearchData } from './grid-search-data';

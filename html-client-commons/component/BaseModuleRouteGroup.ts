@@ -1,6 +1,6 @@
 
 import { BaseReactRouteHandler } from './BaseReactRouteHandler';
-import {  SecurityData } from 'core-client-commons';
+import {  SecurityData } from 'core-client-commons/index';
 import { SecurityRelatedUtil } from "../utils/SecurityRelatedUtil" ;
 import { RouteData } from './RouteData';
 /**

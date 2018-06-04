@@ -1,4 +1,4 @@
-import { CommonCommunicationData } from 'core-client-commons';
+import { CommonCommunicationData } from 'core-client-commons/index';
 /**
  * error validasi mandatory gagal
  */

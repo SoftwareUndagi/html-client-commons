@@ -1,8 +1,8 @@
 
 import * as React from 'react' ;
-export { readNested , setValueHelper , isNull  , cloneObject , deepCloneObject , insertAtArray , __deepCloneWorkerRecursive , makeZeroLeadedString, makeIsoDate , makeIsoDateTime  , cloneObjectMakeDateObjectStringVariable } from 'core-client-commons'; 
-import { CommonCommunicationData } from 'core-client-commons';
-import { isNull , cloneObject  } from 'core-client-commons'; 
+export { readNested , setValueHelper , isNull  , cloneObject , deepCloneObject , insertAtArray , __deepCloneWorkerRecursive , makeZeroLeadedString, makeIsoDate , makeIsoDateTime  , cloneObjectMakeDateObjectStringVariable } from 'core-client-commons/index'; 
+import { CommonCommunicationData } from 'core-client-commons/index';
+import { isNull , cloneObject  } from 'core-client-commons/index'; 
 import { ApplicationTableMetadataReader } from './ApplicationTableMetadataReader';
 
 export function stringIsStartsWith(str: string , searchedString: string ): boolean {

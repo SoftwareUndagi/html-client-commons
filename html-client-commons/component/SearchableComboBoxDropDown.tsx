@@ -1,5 +1,5 @@
 import * as React from "react";
-import { CommonCommunicationData } from 'core-client-commons';
+import { CommonCommunicationData } from 'core-client-commons/index';
 import { isNull  } from '../utils/index';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState } from './BaseHtmlComponent';
 import { SearchableComboBoxDropDownLi } from './SearchableComboBoxDropDownLi'; 

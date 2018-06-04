@@ -1,5 +1,5 @@
 import { JqGridRowContainerBasePanel , JqGridRowContainerBasePanelProps , JqGridRowContainerBasePanelState } from './JqGridRowContainerBasePanel';
-import { editorsupport , isNull } from 'core-client-commons';
+import { editorsupport , isNull } from 'core-client-commons/index';
 
 export interface JqGridRowContainerMemoryPanelProps<DATA> extends JqGridRowContainerBasePanelProps<DATA> { 
     /**

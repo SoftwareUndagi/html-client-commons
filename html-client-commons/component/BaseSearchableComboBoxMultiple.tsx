@@ -1,5 +1,5 @@
 import * as React from "react";
-import { CommonCommunicationData, ListOfValueManager } from 'core-client-commons';
+import { CommonCommunicationData, ListOfValueManager } from 'core-client-commons/index';
 import { isNull, getElementPosition, HtmlElementPosition, i18n, readNested } from '../utils/index';
 import { SearchableComboBoxDropDown } from './SearchableComboBoxDropDown';
 import { OffscreenPanelContainer, DetachPanel } from './OffscreenPanelContainer';

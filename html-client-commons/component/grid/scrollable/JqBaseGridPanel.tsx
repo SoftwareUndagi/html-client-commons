@@ -3,7 +3,7 @@
 import { JqGridColumnProps, JqGridButtonProps , JqGridManualRowRenderer , PredefinedColumnAndButtonParameter } from './GridPanelComponent';
 import { JqGridColumHeaderPanelProps, JqGridColumHeaderPanel } from './JqGridColumHeaderPanel';
 import { JqGridRowColumnPanel } from './JqGridRowColumnPanel';
-import { CommonCommunicationData  , ListOfValueManager , CloseEditorCommandAsync , isNull } from 'core-client-commons';
+import { CommonCommunicationData  , ListOfValueManager , CloseEditorCommandAsync , isNull } from 'core-client-commons/index';
 import { ListOfValueComponent } from '../../ListOfValueComponent';
 import { GridDataAlign , GridColumnCustomFormatterParameter } from '../SimpleGridMetadata';
 import { ClientStorageUtils } from '../../../utils/ClientStorageUtils';

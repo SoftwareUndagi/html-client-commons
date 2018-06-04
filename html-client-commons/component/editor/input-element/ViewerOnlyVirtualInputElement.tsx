@@ -1,6 +1,6 @@
 
 import * as React from "react" ;
-import { isNull } from 'core-client-commons';
+import { isNull } from 'core-client-commons/index';
 import { EditorInputElement } from './CommonsInputElement'; 
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState  } from '../../BaseHtmlComponent';
 

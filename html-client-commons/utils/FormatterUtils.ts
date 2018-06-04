@@ -1,8 +1,8 @@
-import { DateUtils , CommonCommunicationData , CoreComponentAjaxUtils } from 'core-client-commons';
+import { DateUtils , CommonCommunicationData , CoreComponentAjaxUtils } from 'core-client-commons/index';
 import { isNull  } from './CommonUtils';
 import { SecurityRelatedUtil } from './SecurityRelatedUtil'; 
-import {  } from 'core-client-commons';
-import {  } from 'core-client-commons';
+import {  } from 'core-client-commons/index';
+import {  } from 'core-client-commons/index';
 import { ajaxhelper } from './ajaxhelper';
 
 /**

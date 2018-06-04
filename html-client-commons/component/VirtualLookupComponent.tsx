@@ -1,6 +1,6 @@
 
 import * as React from "react" ;
-import { CommonCommunicationData, ListOfValueManager , LOVEnabledComponent   } from 'core-client-commons';
+import { CommonCommunicationData, ListOfValueManager , LOVEnabledComponent   } from 'core-client-commons/index';
 import { BaseHtmlComponent } from "./BaseHtmlComponent";
 
 export interface VirtualLookupComponentProps {

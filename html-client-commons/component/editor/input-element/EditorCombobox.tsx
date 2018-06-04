@@ -1,7 +1,7 @@
 
 import * as React from "react" ;
 
-import { CommonCommunicationData  } from 'core-client-commons';
+import { CommonCommunicationData  } from 'core-client-commons/index';
 import { EditorInputElement  } from './CommonsInputElement';
 import { isNull , readNested , setValueHelper , i18n } from '../../../utils/index' ; 
 import { EditorComboboxWrapper  } from './EditorComboboxWrapper';

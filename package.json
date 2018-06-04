@@ -32,6 +32,7 @@
   "author": "Gede Sutarsa",
   "license": "ISC",
   "dependencies": {
+    "@types/react-dom": "^16.0.5",
     "react": "^16.3.2"
   },
   "devDependencies": {

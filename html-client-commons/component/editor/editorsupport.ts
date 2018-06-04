@@ -1,4 +1,4 @@
-import { ClientSideEditorContainer as xx1 , MoficationDataResultContainer as xx2 } from 'core-client-commons' ; 
+import { ClientSideEditorContainer as xx1 , MoficationDataResultContainer as xx2 } from 'core-client-commons/index' ; 
 /**
  * container data sisi client
  */

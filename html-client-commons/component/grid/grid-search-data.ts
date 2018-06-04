@@ -1,4 +1,4 @@
-import { CommonCommunicationData } from 'core-client-commons';
+import { CommonCommunicationData } from 'core-client-commons/index';
 
 export namespace GridSearchData {
 

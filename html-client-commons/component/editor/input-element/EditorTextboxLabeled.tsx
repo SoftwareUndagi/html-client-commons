@@ -1,7 +1,7 @@
 
 import * as React from "react" ;
 import { getCssForColumnWithScreenType } from '../../../utils/index';
-import { isNull } from 'core-client-commons';
+import { isNull } from 'core-client-commons/index';
 import { EditorTextbox , EditorTextboxProps  } from './EditorTextbox';
 import { BaseHtmlComponent , BaseHtmlComponentState  } from '../../BaseHtmlComponent';
 

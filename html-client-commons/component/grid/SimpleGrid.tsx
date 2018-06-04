@@ -1,6 +1,6 @@
 import * as React from "react" ;
 import { ObjectUtils } from '../../utils/index'; 
-import { CommonCommunicationData , isNull } from 'core-client-commons';
+import { CommonCommunicationData , isNull } from 'core-client-commons/index';
 import { GridColumnProps , GridColumnCustomFormatterParameter, GridDataAlign } from './SimpleGridMetadata';
 import { BaseGrid , BaseGridProps, BaseGridState } from  './BaseGrid';
 

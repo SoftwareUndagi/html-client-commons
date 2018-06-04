@@ -1,5 +1,5 @@
 import {  getDbModelFieldMaxLength } from '../../utils/index';
-import {  CoreBaseEditorSegmentPanel ,   CoreBaseEditorSegmentPanelProps  , CoreBaseEditorSegmentPanelState  } from 'core-client-commons';
+import {  CoreBaseEditorSegmentPanel ,   CoreBaseEditorSegmentPanelProps  , CoreBaseEditorSegmentPanelState  } from 'core-client-commons/index';
 
 export interface BaseEditorSegmentPanelProps <DATA> extends CoreBaseEditorSegmentPanelProps<DATA> {}
 

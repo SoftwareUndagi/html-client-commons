@@ -1,9 +1,9 @@
 import * as React from "react" ;
-import { CommonCommunicationData , ListOfValueManager, CloseEditorCommandAsync } from 'core-client-commons';
+import { CommonCommunicationData , ListOfValueManager, CloseEditorCommandAsync } from 'core-client-commons/index';
 import { BaseGrid , BaseGridProps, BaseGridState  } from './BaseGrid';
 import { ListOfValueComponent } from '../ListOfValueComponent';
 import { ajaxhelper } from '../../utils/ajaxhelper';
-import { CoreComponentAjaxUtils } from 'core-client-commons';
+import { CoreComponentAjaxUtils } from 'core-client-commons/index';
 import { GridColumnProps, GridDataAlign, GridButtonProps, GridColumnDbProps, GridHeaderSearchDefinition, 
         GridHeaderSearchType , ColumnRenderFlag , GridColumnCustomFormatterParameter , GridColumnCustomTextFormatterParameter , 
         SimpleGridAfterRowDataPanelGeneratorParameter , GridColumnCustomTextFormatterMethod , CustomSearchPanelGeneratorParameter , 

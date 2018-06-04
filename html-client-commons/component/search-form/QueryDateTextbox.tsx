@@ -1,6 +1,6 @@
 ﻿import * as React from "react";
 import { generateQueryValue, SimpleQueryOperatorInputProps } from './CommonSearchForm';
-import { isNull } from 'core-client-commons';
+import { isNull } from 'core-client-commons/index';
 import { DatePickerWrapper } from '../DatePickerWrapper';
 import { BaseHtmlComponent } from "../BaseHtmlComponent";
 

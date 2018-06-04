@@ -1,6 +1,6 @@
 
 import * as React from "react" ;
-import { CommonCommunicationData , EditorInputElement , isNull, readNested, setValueHelper  ,  BaseComponent , BaseComponentProps , BaseComponentState } from 'core-client-commons';
+import { CommonCommunicationData , EditorInputElement , isNull, readNested, setValueHelper  ,  BaseComponent , BaseComponentProps , BaseComponentState } from 'core-client-commons/index';
 import { LabelOnlyEditorControl  } from './LabelOnlyEditorControl';
 /**
  * state editor text area

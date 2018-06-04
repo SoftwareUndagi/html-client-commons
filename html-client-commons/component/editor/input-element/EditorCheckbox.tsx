@@ -1,5 +1,5 @@
 import * as React from "react" ;
-import { isNull, readNested, setValueHelper } from 'core-client-commons';
+import { isNull, readNested, setValueHelper } from 'core-client-commons/index';
 import { EditorInputElement  } from './CommonsInputElement';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState } from '../../BaseHtmlComponent';
 

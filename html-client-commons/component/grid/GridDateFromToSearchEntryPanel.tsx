@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { isNull, CloseEditorCommandAsync, makeIsoDateTime , DateUtils } from 'core-client-commons';
+import { isNull, CloseEditorCommandAsync, makeIsoDateTime , DateUtils } from 'core-client-commons/index';
 import { BaseHtmlComponent, BaseHtmlComponentProps, BaseHtmlComponentState } from '../BaseHtmlComponent';
 import { GridHeaderSearchDefinition } from './SimpleGridMetadata';
 import { geneteDate00Hour, geneteDateMaxedHour } from '../../utils/index';

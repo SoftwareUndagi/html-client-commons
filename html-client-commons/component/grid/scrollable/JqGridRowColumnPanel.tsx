@@ -1,7 +1,7 @@
 
 import * as React from 'react';
 import {  FormatterUtils  } from '../../../utils/index';
-import { CommonCommunicationData , isNull , readNested } from 'core-client-commons';
+import { CommonCommunicationData , isNull , readNested } from 'core-client-commons/index';
 import { GridDataAlign } from '../SimpleGridMetadata';
 import { JqGridColumnProps } from './GridPanelComponent';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState  } from '../../BaseHtmlComponent';

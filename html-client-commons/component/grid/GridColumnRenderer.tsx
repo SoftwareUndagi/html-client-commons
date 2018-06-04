@@ -1,5 +1,5 @@
 import * as React from "react" ;
-import { CommonCommunicationData , isNull, readNested,   BaseComponent } from 'core-client-commons';
+import { CommonCommunicationData , isNull, readNested,   BaseComponent } from 'core-client-commons/index';
 import { FormatterUtils } from '../../utils/FormatterUtils';
 import { GridColumnProps , GridDataAlign } from './SimpleGridMetadata';
 

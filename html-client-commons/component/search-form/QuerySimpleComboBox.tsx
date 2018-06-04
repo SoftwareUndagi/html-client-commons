@@ -1,6 +1,6 @@
 import * as React from "react";
 import { generateQueryValue, SimpleQueryOperator } from './CommonSearchForm';
-import { CommonCommunicationData , isNull } from 'core-client-commons';
+import { CommonCommunicationData , isNull } from 'core-client-commons/index';
 import { ObjectUtils } from '../../utils/ObjectUtils';
 import { SimpleCombobox , SimpleComboboxProps } from '../editor/input-element/SimpleCombobox';
 import { BaseHtmlComponent } from "../BaseHtmlComponent";

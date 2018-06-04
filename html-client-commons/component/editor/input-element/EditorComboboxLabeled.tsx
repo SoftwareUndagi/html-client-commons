@@ -1,6 +1,6 @@
 
 import * as React from "react" ;
-import { CommonCommunicationData  } from 'core-client-commons';
+import { CommonCommunicationData  } from 'core-client-commons/index';
 import { EditorInputElement } from './CommonsInputElement';
 import {  isNull , readNested , setValueHelper , getCssForColumnWithScreenType } from '../../../utils/index' ; 
 import { EditorCombobox , EditorComboboxProps , EditorComboboxState } from './EditorCombobox';

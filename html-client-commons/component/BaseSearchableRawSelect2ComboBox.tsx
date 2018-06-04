@@ -1,5 +1,5 @@
 import * as React from "react";
-import { CommonCommunicationData , ListOfValueManager } from 'core-client-commons';
+import { CommonCommunicationData , ListOfValueManager } from 'core-client-commons/index';
 import { isNull , i18n  } from '../utils/index';
 import { BaseHtmlComponent  , BaseHtmlComponentProps , BaseHtmlComponentState } from './BaseHtmlComponent';
 import { Select2RawWrapperPanel } from './Select2RawWrapperPanel';

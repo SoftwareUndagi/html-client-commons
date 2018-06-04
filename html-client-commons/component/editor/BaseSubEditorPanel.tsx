@@ -1,5 +1,5 @@
 
-import { CoreBaseSubEditorPanelProps , CoreBaseSubEditorPanelState , CoreBaseSubEditorPanel } from 'core-client-commons';
+import { CoreBaseSubEditorPanelProps , CoreBaseSubEditorPanelState , CoreBaseSubEditorPanel } from 'core-client-commons/index';
 
 export interface BaseSubEditorPanelState<DATA> extends CoreBaseSubEditorPanelState<DATA> {
 }

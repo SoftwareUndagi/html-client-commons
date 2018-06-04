@@ -10,3 +10,4 @@ export * from './ClientCommonsBootstrap';
 export * from './BaseIndexedDBHelper';
 export * from './DOMUtils';
 export * from './ApplicationTableMetadataReader'; 
+export * from './HtmlCommonUtils' ;

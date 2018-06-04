@@ -1,7 +1,7 @@
 
 import * as React from "react" ;
 import { FormatterUtils  } from '../../../utils/index';
-import {  isNull , readNested , setValueHelper , EditorInputElement } from 'core-client-commons' ;
+import {  isNull , readNested , setValueHelper , EditorInputElement } from 'core-client-commons/index' ;
 import { DatePickerWrapper , DatePickerWrapperProps } from '../../DatePickerWrapper';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState } from '../../BaseHtmlComponent';
 
@@ -322,8 +322,11 @@ export class EditorDateTextbox extends BaseHtmlComponent<EditorDateTextboxProps 
                 st.internalValue = value ;  
             }  ); 
         } else {
-            let s: EditorDateTextboxState = this.state ; 
-            s.internalValue = value ; 
+            this.setStateHelper( st => {
+                st.internalValue = value ;  
+            }  ); 
+            // let s: EditorDateTextboxState = this.state ; 
+            // s.internalValue = value ; 
         }
     }
 

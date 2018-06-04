@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { JqGridColumnProps, JqRenderSimpleRowParameter } from './GridPanelComponent';
-import { CommonCommunicationData , isNull } from 'core-client-commons'; 
+import { CommonCommunicationData , isNull } from 'core-client-commons/index'; 
 import { JqGridRowColumnPanel } from './JqGridRowColumnPanel';
 import { BaseHtmlComponent } from '../../BaseHtmlComponent';
 

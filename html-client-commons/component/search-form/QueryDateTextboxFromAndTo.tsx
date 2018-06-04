@@ -1,6 +1,6 @@
 ﻿import * as React from "react";
 import { generateQueryValue, SimpleQueryOperator } from './CommonSearchForm';
-import { isNull ,  makeIsoDate , makeIsoDateTime  } from 'core-client-commons';
+import { isNull ,  makeIsoDate , makeIsoDateTime  } from 'core-client-commons/index';
 import { DatePickerWrapper } from '../DatePickerWrapper';
 import { i18n , geneteDateMaxedHour, geneteDate00Hour } from '../../utils/index';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState } from '../BaseHtmlComponent';

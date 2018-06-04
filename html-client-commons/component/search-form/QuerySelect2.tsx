@@ -1,7 +1,7 @@
 ﻿import * as React from "react";
 import { generateQueryValue, SimpleQueryOperator } from './CommonSearchForm';
 import { Select2Panel } from '../Select2Panel';
-import { CommonCommunicationData ,  isNull , ListOfValueManager } from 'core-client-commons';
+import { CommonCommunicationData ,  isNull , ListOfValueManager } from 'core-client-commons/index';
 import { BaseHtmlComponent } from "../BaseHtmlComponent";
 
 /**
