@@ -1,7 +1,7 @@
 ﻿
 import * as React from "react";
 import { generateQueryValue, SimpleQueryOperator, SimpleQueryOperatorInputProps } from './CommonSearchForm';
-import { isNull } from 'core-client-commons';
+import { isNull } from 'core-client-commons/index';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState } from '../BaseHtmlComponent';
 /**
  * props untuk textbox query

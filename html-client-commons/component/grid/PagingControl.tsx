@@ -1,6 +1,6 @@
 "use strict"; 
 import * as React from "react" ;
-import { isNull , BaseComponent } from 'core-client-commons';
+import { isNull , BaseComponent } from 'core-client-commons/index';
 
 export interface PagingControlProps extends React.Props<PagingControl> {
 

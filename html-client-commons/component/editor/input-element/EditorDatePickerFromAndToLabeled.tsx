@@ -1,6 +1,6 @@
 import * as React from "react" ;
 import { getCssForColumnWithScreenType  } from '../../../utils/index';
-import { isNull   } from 'core-client-commons' ;
+import { isNull   } from 'core-client-commons/index' ;
 import { EditorDatePickerFromAndTo , EditorDatePickerFromAndToProps } from './EditorDatePickerFromAndTo'; 
 import { EditorDateTextbox } from './EditorDateTextbox';
 import { BaseHtmlComponent  } from '../../BaseHtmlComponent';

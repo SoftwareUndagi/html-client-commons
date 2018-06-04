@@ -1,5 +1,5 @@
 
-import { CommonCommunicationData , ListOfValueManager } from 'core-client-commons' ;
+import { CommonCommunicationData , ListOfValueManager } from 'core-client-commons/index' ;
 import { ListOfValueComponent } from './ListOfValueComponent';
 import { isNull  } from '../utils/index';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState  } from './BaseHtmlComponent';

@@ -1,5 +1,5 @@
 import { SimpleDbDrivenGrid } from './grid/SimpleDbDrivenGrid' ;
-import { CommonCommunicationData , ListOfValueManager  } from 'core-client-commons' ;
+import { CommonCommunicationData , ListOfValueManager  } from 'core-client-commons/index' ;
 import { ListOfValueComponent } from './ListOfValueComponent';
 import { ajaxhelper  } from '../utils/index';
 import { BaseHtmlComponent } from "./BaseHtmlComponent";

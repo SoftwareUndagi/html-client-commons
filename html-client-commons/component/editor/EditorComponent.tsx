@@ -1,4 +1,4 @@
-import { ReactEditorBannerMessage as SwapBannerMessage } from 'core-client-commons';
+import { ReactEditorBannerMessage as SwapBannerMessage } from 'core-client-commons/index';
 
 /**
  * untuk di pergunakan dengan notif. semacam ini : 

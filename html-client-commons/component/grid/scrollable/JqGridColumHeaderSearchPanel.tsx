@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ListOfValueManager , CommonCommunicationData , BaseComponent , BaseComponentProps , BaseComponentState } from 'core-client-commons';
+import { ListOfValueManager , CommonCommunicationData , BaseComponent , BaseComponentProps , BaseComponentState } from 'core-client-commons/index';
 import { GridHeaderSearchType , GridHeaderSearchDefinition } from '../SimpleGridMetadata';
 import { QueryDateTextbox, QueryTextbox, QueryDateTextboxFromAndTo, 
     QuerySelect2, QueryDateTextboxProps, QueryTextboxProps, QueryDateTextboxFromAndToProps, 

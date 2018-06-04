@@ -1,5 +1,5 @@
 import * as React from "react" ;
-import { isNull } from 'core-client-commons';
+import { isNull } from 'core-client-commons/index';
 import { FormatterUtils  ,   readNested, setValueHelper } from '../../../utils/index';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState } from '../../BaseHtmlComponent';
 export interface EditorNumberTextboxProps extends BaseHtmlComponentProps {

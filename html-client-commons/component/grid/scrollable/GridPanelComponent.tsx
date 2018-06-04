@@ -1,6 +1,6 @@
 ﻿import * as React from 'react';
 import { isNull , i18n  } from '../../../utils/index';
-import { CommonCommunicationData } from 'core-client-commons';
+import { CommonCommunicationData } from 'core-client-commons/index';
 import { GridDataAlign , ColumnRenderFlag } from '../SimpleGridMetadata';
 
 import {

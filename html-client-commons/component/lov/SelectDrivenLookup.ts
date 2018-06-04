@@ -1,4 +1,4 @@
-import { CommonCommunicationData }    from 'core-client-commons';
+import { CommonCommunicationData }    from 'core-client-commons/index';
 import { LOVEnabledComponent } from './data';
 /**
  * component lookup dengan base : &gt;select&lt;

@@ -1,5 +1,5 @@
 
-import { ObjectUtils as Ob } from 'core-client-commons'; 
+import { ObjectUtils as Ob } from 'core-client-commons/index'; 
 /**
  * object utils. untuk maipulasi object , constructor dlll
  */

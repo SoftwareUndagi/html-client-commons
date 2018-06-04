@@ -1,5 +1,5 @@
 import * as React from "react" ;
-import { isNull,  BaseComponent , BaseComponentProps , BaseComponentState  } from 'core-client-commons';
+import { isNull,  BaseComponent , BaseComponentProps , BaseComponentState  } from 'core-client-commons/index';
 import { GridButtonProps } from './SimpleGridMetadata';
 import { GridActionButtonLinkIcon } from './GridActionButtonLinkIcon'; 
 /**

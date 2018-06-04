@@ -1,5 +1,5 @@
 
-import { CommonCommunicationData } from 'core-client-commons'; 
+import { CommonCommunicationData } from 'core-client-commons/index'; 
 /**
  * data html commons
  */

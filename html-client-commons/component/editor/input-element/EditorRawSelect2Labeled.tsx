@@ -1,5 +1,5 @@
 import * as React from "react" ;
-import { CommonCommunicationData } from 'core-client-commons';
+import { CommonCommunicationData } from 'core-client-commons/index';
 import { EditorInputElement , CustomMandatoryValidateEnabled ,  CustomValidationFailureResult , 
     ERROR_CODE_MANDATORY_VALIDATION_FAILED , ERROR_MSG_I18N_MANDATORY_VALIDATION_FAILED ,  ERROR_MSG_MANDATORY_VALIDATION_FAILED } from './CommonsInputElement';
 import { i18n , isNull, readNested, setValueHelper  } from '../../../utils/index';

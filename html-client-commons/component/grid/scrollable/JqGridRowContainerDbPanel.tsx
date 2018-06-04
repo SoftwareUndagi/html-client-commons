@@ -2,7 +2,7 @@ import * as React from 'react';
 import { JqGridRowContainerBasePanel , JqGridRowContainerBasePanelProps , JqGridRowContainerBasePanelState } from './JqGridRowContainerBasePanel';
 import { isNull , isSortExistOnArray ,  cloneObjectMakeDateObjectStringVariable ,  ajaxhelper } from '../../../utils/index';
 import { DetachPanel  } from '../../OffscreenPanelContainer';
-import { CommonCommunicationData } from 'core-client-commons';
+import { CommonCommunicationData } from 'core-client-commons/index';
 
 export interface JqGridRowContainerDbPanelProps<DATA> extends JqGridRowContainerBasePanelProps<DATA> {
     /**

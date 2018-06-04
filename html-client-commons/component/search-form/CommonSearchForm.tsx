@@ -1,4 +1,4 @@
-import { CommonClientConstant } from 'core-client-commons';
+import { CommonClientConstant } from 'core-client-commons/index';
 import { readFormInputValue } from '../../utils/index';
 
 /**

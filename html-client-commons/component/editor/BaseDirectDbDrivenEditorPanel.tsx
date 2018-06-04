@@ -1,7 +1,7 @@
 
 import * as React from "react" ;
 import { BaseReactEditorPanel  } from "./BaseReactEditorPanel";
-import { isNull,  ReactEditorBannerMessage , CoreAjaxHelper , ListOfValueManager , CoreBaseDirectDbDrivenEditorPanel ,  CoreBaseDirectDbDrivenEditorPanelProps , CoreBaseDirectDbDrivenEditorPanelState } from 'core-client-commons';
+import { isNull,  ReactEditorBannerMessage , CoreAjaxHelper , ListOfValueManager , CoreBaseDirectDbDrivenEditorPanel ,  CoreBaseDirectDbDrivenEditorPanelProps , CoreBaseDirectDbDrivenEditorPanelState } from 'core-client-commons/index';
 import { getCssForColumnWithScreenType , getDbModelFieldMaxLength } from '../../utils/index';
 import { ListOfValueComponent } from '../ListOfValueComponent';
 import { ajaxhelper } from '../../utils/ajaxhelper';

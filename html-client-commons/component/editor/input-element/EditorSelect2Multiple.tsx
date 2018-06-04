@@ -1,4 +1,4 @@
-import { CommonCommunicationData , isNull, setValueHelper , EditorInputElement , ListOfValueManager  } from 'core-client-commons';
+import { CommonCommunicationData , isNull, setValueHelper , EditorInputElement , ListOfValueManager  } from 'core-client-commons/index';
 import { Select2PanelProps  } from '../../Select2Panel';
 import { BaseHtmlComponent } from "../../BaseHtmlComponent";
 

@@ -1,6 +1,6 @@
 
 import * as React from "react" ;
-import { DateUtils } from 'core-client-commons';
+import { DateUtils } from 'core-client-commons/index';
 import { isNull , i18n  } from '../../../utils/index';
 import { EditorInputElement , CustomInputElementValidator , CustomValidationFailureResult , HaveCustomValidatorInputElement } from './CommonsInputElement';
 import { EditorDateTextbox } from './EditorDateTextbox'; 

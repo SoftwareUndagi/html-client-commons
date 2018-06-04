@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import {  isNull , CloseEditorCommandAsync ,   CommonCommunicationData } from 'core-client-commons'; 
+import {  isNull , CloseEditorCommandAsync ,   CommonCommunicationData } from 'core-client-commons/index'; 
 import { BaseHtmlComponent } from '../../BaseHtmlComponent';
 import { JqGridButtonProps, JqGridColumnProps, JqGridManualRowRenderer, JqRenderSimpleRowParameter } from "./GridPanelComponent";
 import { JqAfterDataRowGeneratorParameter } from "./JqBaseGridPanel";

@@ -3,7 +3,7 @@ import { ajaxhelper } from "../utils/ajaxhelper" ;
 import { EditorSubcomponentInterface } from "./EditorComponentData";
 import { CommonsAjaxResultHolder } from "./EditorComponentData"; 
 import { CloseEditorCommand , EditingDataCompleteHandler , AdditionalEditorTask } from "./EditorComponentData";  
-import { CommonCommunicationData } from 'core-client-commons' ;
+import { CommonCommunicationData } from 'core-client-commons/index' ;
  /**
   * base class untuk base DB driven editor.
   * agak sedikit menyusahkan, karena pada base class @Input tidak akan bekerja. sehingga item ini mau tidak mau harus di pasang pada class implementasi pada level implementasi.

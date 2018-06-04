@@ -1,5 +1,5 @@
 
-import { CommonClientData , SecurityData  } from 'core-client-commons';
+import { CommonClientData , SecurityData  } from 'core-client-commons/index';
 /**
  * data untu routing
  */

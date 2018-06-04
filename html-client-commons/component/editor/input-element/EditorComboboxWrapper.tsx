@@ -1,5 +1,5 @@
 import * as React from "react" ;
-import { CommonCommunicationData ,   isNull  } from 'core-client-commons';
+import { CommonCommunicationData ,   isNull  } from 'core-client-commons/index';
 import { BaseHtmlComponent } from "../../BaseHtmlComponent";
 /**
  * props untuk combo box

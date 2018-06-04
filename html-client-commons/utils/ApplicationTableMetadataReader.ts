@@ -1,7 +1,7 @@
 import { ajaxhelper } from './ajaxhelper';
 import {  HTMLClientCommonData } from '../shared/index';
-import { CommonCommunicationData } from 'core-client-commons';
-import { isNull } from 'core-client-commons';
+import { CommonCommunicationData } from 'core-client-commons/index';
+import { isNull } from 'core-client-commons/index';
 
 /**
  * reader metadata tablde dari server

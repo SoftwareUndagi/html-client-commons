@@ -1,5 +1,5 @@
 import * as React from "react" ;
-import { ListOfValueManager , CommonCommunicationData } from 'core-client-commons'; 
+import { ListOfValueManager , CommonCommunicationData } from 'core-client-commons/index'; 
 import { IDbDrivenGridPanel, SimpleDbDrivenGridLookupProps, SimpleGridAfterRowDataPanelGeneratorParameter, GridColumnCustomTextFormatterMethod } from './SimpleGridMetadata'; 
 import { JqAfterDataRowGeneratorParameter } from './scrollable/JqBaseGridPanel';
 import { JqDbDrivenGridPanel , JqGridManualRowRenderer , PredefinedColumnAndButtonParameter , __jqExtractColumnAndButton } from './scrollable/index';

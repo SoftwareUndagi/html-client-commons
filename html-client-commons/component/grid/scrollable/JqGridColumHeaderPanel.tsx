@@ -2,7 +2,7 @@ import * as React from 'react';
 import { OffscreenPanelContainer , DetachPanel } from '../../OffscreenPanelContainer';
 import { ColumnResizeAnimation  } from './ColumnResizeAnimation';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState  } from '../../BaseHtmlComponent';
-import { isNull } from 'core-client-commons';
+import { isNull } from 'core-client-commons/index';
 
 export interface JqGridColumHeaderPanelProps extends BaseHtmlComponentProps {
     /**

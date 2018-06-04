@@ -1,6 +1,6 @@
 import * as React from "react";
 import { BaseHtmlComponent  , BaseHtmlComponentProps , BaseHtmlComponentState } from './BaseHtmlComponent';
-import { CommonCommunicationData } from 'core-client-commons';
+import { CommonCommunicationData } from 'core-client-commons/index';
 import { isNull  , i18n , ObjectUtils } from '../utils/index';
 declare var jQuery: any ; 
 

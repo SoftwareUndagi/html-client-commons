@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { JqGridColumnProps } from './GridPanelComponent';
 import { JqGridColumHeaderPanelProps, JqGridColumHeaderPanel } from './JqGridColumHeaderPanel';
-import { CommonCommunicationData  , isNull , ListOfValueManager , CloseEditorCommandAsync  } from 'core-client-commons';
+import { CommonCommunicationData  , isNull , ListOfValueManager , CloseEditorCommandAsync  } from 'core-client-commons/index';
 import { SimpleQueryOperator, SimpleQueryOperatorInputProps } from '../../search-form/CommonSearchForm';
 import { QueryDateTextbox, QueryTextbox,  QuerySelect2, QueryDateTextboxProps, QueryTextboxProps,  QuerySelect2Props , QuerySimpleComboBoxProps , QuerySimpleComboBox } from '../../search-form/SimpleQueryInputElement';
 import { GridHeaderSearchType, GridHeaderSearchDefinition } from '../SimpleGridMetadata';

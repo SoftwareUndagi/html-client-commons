@@ -1,5 +1,5 @@
 import * as React from "react" ;
-import { CommonCommunicationData , isNull , ListOfValueManager } from 'core-client-commons';
+import { CommonCommunicationData , isNull , ListOfValueManager } from 'core-client-commons/index';
 import { ObjectUtils } from '../../../utils/ObjectUtils';
 import { LOVEnabledComponent } from '../../ListOfValueComponent'; 
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState  } from '../../BaseHtmlComponent';

@@ -1,5 +1,5 @@
 
-import { CommonClientData } from 'core-client-commons' ;
+import { CommonClientData } from 'core-client-commons/index' ;
 import { SecurityRelatedUtil } from "../utils/SecurityRelatedUtil";
 
 /**

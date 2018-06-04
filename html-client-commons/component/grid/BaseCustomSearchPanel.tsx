@@ -1,4 +1,4 @@
-import { CommonCommunicationData , ListOfValueManager   } from 'core-client-commons';
+import { CommonCommunicationData , ListOfValueManager   } from 'core-client-commons/index';
 import { BaseHtmlComponent } from "../BaseHtmlComponent";
 export interface BaseCustomSearchPanelProps {
 

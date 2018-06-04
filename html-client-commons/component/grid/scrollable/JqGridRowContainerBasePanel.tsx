@@ -3,7 +3,7 @@ import { JqGridRowColumnPanel } from './JqGridRowColumnPanel';
 import { JqGridColumnProps, JqGridManualRowRenderer,  JqRenderSimpleRowParameter    } from './GridPanelComponent';
 import { JqAfterDataRowGeneratorParameter } from './JqBaseGridPanel'    ;
 import { BaseHtmlComponent } from '../../BaseHtmlComponent';
-import { isNull , CommonCommunicationData } from 'core-client-commons';
+import { isNull , CommonCommunicationData } from 'core-client-commons/index';
 
 export interface JqGridRowContainerBasePanelProps<DATA> {
 

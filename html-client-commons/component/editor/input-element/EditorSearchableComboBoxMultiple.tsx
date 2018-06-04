@@ -1,5 +1,5 @@
 import { BaseSearchableComboBoxMultiple, BaseSearchableComboBoxMultipleProps, BaseSearchableComboBoxMultipleState } from '../../BaseSearchableComboBoxMultiple';
-import { isNull, EditorInputElement, CommonCommunicationData } from 'core-client-commons';
+import { isNull, EditorInputElement, CommonCommunicationData } from 'core-client-commons/index';
 
 export interface BaseEditorSearchableComboBoxMultipleProps extends BaseSearchableComboBoxMultipleProps { 
 

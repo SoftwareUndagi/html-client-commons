@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { isNull, CloseEditorCommandAsync, ListOfValueManager, CommonCommunicationData, readNested  } from 'core-client-commons';
+import { isNull, CloseEditorCommandAsync, ListOfValueManager, CommonCommunicationData, readNested  } from 'core-client-commons/index';
 import { BaseHtmlComponent, BaseHtmlComponentProps, BaseHtmlComponentState } from '../BaseHtmlComponent';
 import { GridHeaderSearchDefinition } from './SimpleGridMetadata';
 import { GridSearchData } from './grid-search-data';

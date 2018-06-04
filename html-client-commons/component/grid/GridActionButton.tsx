@@ -1,6 +1,6 @@
 import * as React from "react" ;
 import { GridButtonProps } from './SimpleGridMetadata';
-import { isNull, BaseComponent } from 'core-client-commons';
+import { isNull, BaseComponent } from 'core-client-commons/index';
 
 /**
  * ini tidak secara fisik membuat element. ini cuma untuk di pass ke dalam grid/ column. column yang mandatory berjewajiban membuat action column

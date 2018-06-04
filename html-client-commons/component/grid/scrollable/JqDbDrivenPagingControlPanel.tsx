@@ -1,7 +1,7 @@
 
 import * as React from 'react';
 import { isNull } from '../../../utils/index';
-import { BaseComponent } from 'core-client-commons';
+import { BaseComponent } from 'core-client-commons/index';
 
 export interface JqDbDrivenPagingControlPanelProps {
     /**

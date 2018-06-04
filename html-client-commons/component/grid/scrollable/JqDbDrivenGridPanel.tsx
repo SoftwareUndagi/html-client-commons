@@ -1,6 +1,6 @@
 ﻿import * as React from 'react';
 import {  isNull , FormatterUtils , cloneObjectMakeDateObjectStringVariable } from '../../../utils/index';
-import { CommonCommunicationData , ListOfValueManager, deepCloneObject  } from 'core-client-commons';
+import { CommonCommunicationData , ListOfValueManager, deepCloneObject  } from 'core-client-commons/index';
 import { ajaxhelper   } from '../../../utils/index';
 import { DetachPanel  } from '../../OffscreenPanelContainer';
 import { ListOfValueComponent } from '../../ListOfValueComponent';
@@ -117,7 +117,7 @@ export class JqDbDrivenGridPanel<DATA> extends BaseGridPanel<DATA, JqDbDrivenGri
     /**
      * key pada state untuk mengecek element perlu update atau tidak
      */
-    static KEYS_ONSTATE_FOR_CHECK_SHOULD_UPDATE: Array<string> = ['listData', 'stateUpdateMarker', 	'selectedData',	'selectedRowindex',	'headerCollapsed',	'widthComputedColumn',	'showingLoadBlockerPanel']; 
+    static KEYS_ONSTATE_FOR_CHECK_SHOULD_UPDATE: Array<string> = ['listData', 'stateUpdateMarker', 	'selectedData',	'selectedRowindex',	'headerCollapsed',	'widthComputedColumn',	'showingLoadBlockerPanel' , "page"]; 
     
     /**
      * pager default. kalau tidak di tentukan
@@ -172,6 +172,7 @@ export class JqDbDrivenGridPanel<DATA> extends BaseGridPanel<DATA, JqDbDrivenGri
             }
         };
     }
+    /*
     shouldComponentUpdate(nextProps: JqDbDrivenGridPanelProps<DATA> , nextState: JqDbDrivenGridPanelState<DATA>) {
         if ( this.compareForShouldComponentUpdateStateOrProp(JqDbDrivenGridPanel.KEYS_ONPROP_FOR_CHECK_SHOULD_UPDATE , nextProps , this.props)  ||
             this.compareForShouldComponentUpdateStateOrProp(JqDbDrivenGridPanel.KEYS_ONSTATE_FOR_CHECK_SHOULD_UPDATE , nextState , this.state)) {
@@ -179,7 +180,7 @@ export class JqDbDrivenGridPanel<DATA> extends BaseGridPanel<DATA, JqDbDrivenGri
         }
         return false ; 
     }
-
+    */
     updateState: () => void = () =>  {
         console.log('pertimbangkan untuk update state dengan spesifik');
         this.setStateHelper(st => st.stateUpdateMarker = st.stateUpdateMarker + 1);

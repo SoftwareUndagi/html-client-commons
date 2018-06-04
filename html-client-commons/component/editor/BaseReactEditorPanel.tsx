@@ -1,5 +1,5 @@
 
-import { CoreBaseReactEditorPanel , CoreBaseReactEditorPanelState  } from 'core-client-commons';
+import { CoreBaseReactEditorPanel , CoreBaseReactEditorPanelState  } from 'core-client-commons/index';
 /**
  * editor state untuk editor data
  */
