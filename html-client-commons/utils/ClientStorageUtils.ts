@@ -107,7 +107,7 @@ export class ClientStorageUtils {
         return new Promise<any>((accept: (n: any) => any, reject: (exc: any) => any) => {
             if (this.useChrome) {
                 let p: any = {};
-                this.chromeRef.storage.local.get(p,  (d) => {
+                this.chromeRef.storage.local.get(p,  (d: any) => {
                     accept(d);
                 });
             } else {

@@ -178,6 +178,10 @@ export interface SimpleMemoryDrivenGridState<DATA> extends BaseGridState<DATA> {
      * state untuk row
      */
     rowStateContainer: {[id: string]: any }[] ; 
+    /**
+     * data versi. untuk menandai ada perubahan data
+     */
+    versionData: number ; 
 } 
 
 export class SimpleMemoryDrivenGrid<DATA> extends BaseGrid<DATA, SimpleMemoryDrivenGridProps < DATA > , SimpleMemoryDrivenGridState<DATA>> {
@@ -216,7 +220,8 @@ export class SimpleMemoryDrivenGrid<DATA> extends BaseGrid<DATA, SimpleMemoryDri
             renderAsScrollableGrid : true , 
             actionButtons : this.actionButtons, 
             columnDefinitions : [] , 
-            rowStateContainer : []
+            rowStateContainer : [] , 
+            versionData: 1 
         };
     }
 
@@ -235,7 +240,9 @@ export class SimpleMemoryDrivenGrid<DATA> extends BaseGrid<DATA, SimpleMemoryDri
                 return true ; 
             }
         }
-        
+        if ( nextState.versionData !== this.state.versionData ) {
+            return true ; 
+        }
         let cmp: Array<boolean> = this.readButtonEnableFlag() ; 
         try {
             if ( !ObjectUtils.hiLevelArrayCompare(cmp , this.buttonEnabledFlagArray)) {
@@ -325,6 +332,7 @@ export class SimpleMemoryDrivenGrid<DATA> extends BaseGrid<DATA, SimpleMemoryDri
             this.assignData(data , targetState);
             this.unregisterDataContainerChangeHandler  =  prop.dataContainer.registerChangeHandler(() => {
                 this.setStateHelper (st => {
+                    st.versionData = st.versionData + 1 ; 
                     let chgData: any []  = isNull(prop.fetcherDataFromDataContainer) ? prop.dataContainer.getAllStillExistData()! : prop.fetcherDataFromDataContainer!(prop.dataContainer); 
                     this.assignData(chgData , st);
                 });

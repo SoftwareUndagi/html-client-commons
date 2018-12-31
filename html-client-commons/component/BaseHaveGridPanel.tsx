@@ -67,6 +67,12 @@ export abstract class BaseHaveGridPanel<DATA , PROPS, STATE extends BaseHaveGrid
             this.getGrid().reloadGrid(); 
         };
     }
+    /**
+     * task after edit. comon untuk di panggil pada saat editor di close, dan 
+     */
+    protected commonAfterEditTask: (data: DATA) => any = (data: DATA) => {
+        this.reloadGrid(); 
+    }
 
     componentDidMount () {
         let ids: string[] =    this.lookupManager.getLookupIds();

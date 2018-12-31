@@ -240,7 +240,7 @@ export class Select2RawWrapperPanel extends BaseHtmlComponent<Select2RawWrapperP
                 multiple : false 
               });
             this.initialized = true ; 
-            cmpn.on("change",  ( param ) => {
+            cmpn.on("change",  ( param: any ) => {
                 let elId: string = this.elementId ; 
                 let val: any = jQuery("#" + elId).val() ; 
                 this.props.onValueChange(val); 

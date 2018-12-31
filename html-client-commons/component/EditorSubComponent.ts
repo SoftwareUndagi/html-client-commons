@@ -55,7 +55,7 @@ export abstract class EditorSubComponent<DATA> implements EditorSubcomponentInte
     /**
      * task tambahan pada saat di assign 
      */
-    abstract additionalTaskOnDataAssigned(data: DATA  , editorState: string , additionalDataContainer: {[id: string]: any }) ;   
+    abstract additionalTaskOnDataAssigned(data: DATA  , editorState: string , additionalDataContainer: {[id: string]: any }): void ;   
          
         /**
          * property getter. state dari editor

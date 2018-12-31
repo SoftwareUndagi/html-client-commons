@@ -68,12 +68,12 @@ export abstract class BaseIndexedDBHelper {
     /**
      * handler pada saat perlu initiate data
      */
-    abstract onUpgradeNeeded (db: IDBDatabase  , ev: IDBVersionChangeEvent ) ; 
+    abstract onUpgradeNeeded (db: IDBDatabase  , ev: IDBVersionChangeEvent ): void ; 
 
     /**
      * kalau koneksi ke database error
      */
-    abstract onError(evt: any ); 
+    abstract onError(evt: any ): void; 
 
     /**
      * worker untuk membuat datastore baru

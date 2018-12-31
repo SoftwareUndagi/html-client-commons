@@ -716,13 +716,18 @@ export abstract class BaseGridPanel<DATA, PROPS extends BaseGridPanelProps<DATA>
         lebar1 += 25 ; 
         if ( !isNull(this.props.width)) {
             if ( this.props.width > lebar1) {
+                console.log('[JqBaseGridPanel#gridActualWidth] width > widthComputedColumn di kembalikan : ', lebar1);
                 return lebar1  ; 
             }
+            console.log(`[JqBaseGridPanel#gridActualWidth] width(${this.props.width}) < computed width(${lebar1}), return width : ${lebar1}`);
             return this.props.width! ; 
+            
         }
         // ini spt nya lebar grid calculated. lebar window - space
         if (!isNull(this.props.gridMinimumWidth) && lebar1 < this.props.gridMinimumWidth) {
+            
             lebar1 = this.props.gridMinimumWidth!;
+            console.log('[JqBaseGridPanel#gridActualWidth] min width : ', lebar1); 
         }
         let lebarWindow: number = window.innerWidth;
         let kiri: number = isNull(this.props.spaceUsedOnLeftSide) ? 0 : this.props.spaceUsedOnLeftSide!;
@@ -730,7 +735,9 @@ export abstract class BaseGridPanel<DATA, PROPS extends BaseGridPanelProps<DATA>
         let lebarGridAvailable: number = lebarWindow - kiri - spaceKanan;
         if (lebar1 > lebarGridAvailable) {
             lebar1 = lebarGridAvailable;
+            console.log('[JqBaseGridPanel#gridActualWidth] lebar1 > lebarGridAvailable, lebar1 di ganti dengan lebarGridAvailable');
         }
+        console.log('[JqBaseGridPanel#gridActualWidth] return ', lebar1); 
         return lebar1 ; 
     }
     /**

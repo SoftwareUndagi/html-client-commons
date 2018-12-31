@@ -1,6 +1,6 @@
 
 import { SecurityRelatedUtil } from '../utils/SecurityRelatedUtil' ;
-import { SecurityData } from "core-client-commons/index";
+import { SecurityData } from 'core-client-commons/index';
 import { RouteData } from './RouteData';
 /**
  * base class untuk react style routes

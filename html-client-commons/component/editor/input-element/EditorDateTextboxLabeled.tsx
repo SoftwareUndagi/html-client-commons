@@ -134,7 +134,7 @@ export class EditorDateTextboxLabeled extends BaseHtmlComponent<EditorDateTextbo
                             dateformat={this.props.dateformat}
                             id={this.elementId}
                         />
-                        <CalendarIcon clickHandler={this.calendarIconClickHandler}/>
+                        {isNull( this.props.readonlyState) || !(!!this.props.readonlyState) ? <CalendarIcon clickHandler={this.calendarIconClickHandler}/> : null}
                         </div>
                     </div>
                 </div>

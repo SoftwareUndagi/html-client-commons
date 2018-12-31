@@ -836,6 +836,6 @@ export interface IDbDrivenGridPanel<DATA> {
     /**
      * focus ke grid
      */
-    focus();
+    focus(): void;
 
 }

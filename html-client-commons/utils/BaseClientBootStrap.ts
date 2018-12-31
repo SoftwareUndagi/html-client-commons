@@ -23,5 +23,5 @@ export abstract class BaseClientBootStrap {
     /**
      * run bootstrap client app
      */
-    abstract bootStrap ( param: ClientBootStrapParameter ) ; 
+    abstract bootStrap ( param: ClientBootStrapParameter ): void ; 
 }

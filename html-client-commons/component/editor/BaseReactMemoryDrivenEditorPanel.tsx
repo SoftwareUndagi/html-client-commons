@@ -1,5 +1,5 @@
 import { CoreBaseReactMemoryDrivenEditorPanel , CoreBaseReactMemoryDrivenEditorPanelProps , 
-        CoreBaseReactMemoryDrivenEditorPanelState , CoreAjaxHelper  , ListOfValueManager } from "core-client-commons/index";
+        CoreBaseReactMemoryDrivenEditorPanelState , CoreAjaxHelper  , ListOfValueManager } from 'core-client-commons/index';
 import { ajaxhelper } from '../../utils/index';
 import { ListOfValueComponent  } from '../ListOfValueComponent';
 export interface BaseReactMemoryDrivenEditorPanelState<DATA> extends CoreBaseReactMemoryDrivenEditorPanelState<DATA> { } 

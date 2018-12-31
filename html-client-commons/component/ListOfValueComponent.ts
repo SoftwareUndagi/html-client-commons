@@ -3,7 +3,7 @@ import { LOVEnabledComponent , CachedLookupDefinition } from './lov/data';
 import { CommonCommunicationData , CommonClientConstant , CoreAjaxHelper } from 'core-client-commons/index'; 
 import { BaseListOfValueManager , ListOfValueManager } from 'core-client-commons/index'; 
 export { ListOfValueManager  , BaseListOfValueManager , 
-     CoreAjaxHelper, CommonClientConstant  } from "core-client-commons/index";
+     CoreAjaxHelper, CommonClientConstant  } from 'core-client-commons/index';
 const STORAGE_UTILS: ClientStorageUtils = new ClientStorageUtils();
 export { CachedLookupDefinition , LoadLookupFromCacheDataWrapper , LookupWithToken , LookupWithTokenResponse , LOVEnabledComponent} from './lov/data';
 export namespace ListOfValueComponent {

@@ -418,7 +418,7 @@ export class SimpleDbDrivenGrid<DATA> extends BaseHtmlComponent<SimpleDbDrivenGr
                 sorts={this.props.sorts}
                 tableId={this.props.tableId}
                 theadCssName={this.props.theadCssName}
-                ref={g => {
+                ref={(g: any) => {
                     this.actualGrid = g ; 
                 }}
             >{this.props.children}

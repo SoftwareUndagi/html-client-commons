@@ -322,8 +322,11 @@ export class EditorDateTextbox extends BaseHtmlComponent<EditorDateTextboxProps 
                 st.internalValue = value ;  
             }  ); 
         } else {
-            let s: EditorDateTextboxState = this.state ; 
-            s.internalValue = value ; 
+            this.setStateHelper( st => {
+                st.internalValue = value ;  
+            }  ); 
+            // let s: EditorDateTextboxState = this.state ; 
+            // s.internalValue = value ; 
         }
     }
 

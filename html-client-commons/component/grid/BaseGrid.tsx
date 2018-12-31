@@ -202,7 +202,7 @@ export abstract class BaseGrid<DATA , PROPS extends BaseGridProps<DATA> , STATE 
      * state dari grid
      * @param rowIndex 
      */
-    abstract getGridRowState ( rowIndex: number ) ;
+    abstract getGridRowState ( rowIndex: number ): void ;
 
     /**
      * checker action buttons. enabled flag 

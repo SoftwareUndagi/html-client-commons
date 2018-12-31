@@ -1,5 +1,5 @@
 
-import { CommonCommunicationData, isNull , CoreAjaxHelper } from "core-client-commons/index"; 
+import { CommonCommunicationData, isNull , CoreAjaxHelper } from 'core-client-commons/index'; 
 import {  stringIsStartsWith } from './CommonUtils';
 
 declare var jQuery: any  ;

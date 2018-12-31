@@ -73,10 +73,10 @@ export abstract class BaseEditorPanel <DATA> {
     /**
      * implementasi custom untuk register. misal kalau sudah ada data, maka data akan di assign ke dalam control
      */
-    abstract additionalTaskOnRegister (childEditor: EditorSubcomponentInterface<DATA>) ; 
+    abstract additionalTaskOnRegister (childEditor: EditorSubcomponentInterface<DATA>): void ; 
     /**
      * task tambahan pada saat panel di detach
      */
-    abstract additionalTaskOnUnRegister (childEditor: EditorSubcomponentInterface<DATA>) ;
+    abstract additionalTaskOnUnRegister (childEditor: EditorSubcomponentInterface<DATA>): void ;
     
 }

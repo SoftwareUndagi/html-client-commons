@@ -3,7 +3,7 @@ import { isNull , FormatterUtils , HtmlElementPosition , getElementPosition } fr
 import { DatePickerWrapperDropdown } from './DatePickerWrapperDropdown';
 import { OffscreenPanelContainer , DetachPanel } from './OffscreenPanelContainer';
 import { BaseHtmlComponent , BaseHtmlComponentProps , BaseHtmlComponentState } from './BaseHtmlComponent';
-declare var jQuery ; 
+declare var jQuery: any  ; 
 /**
  * props untuk date picker
  */

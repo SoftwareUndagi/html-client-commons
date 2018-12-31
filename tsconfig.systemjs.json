@@ -1,21 +1,22 @@
 {
   "compileOnSave": true , 
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es6",
     "module": "system",
     "jsx": "react",
     "moduleResolution": "node",
-    "sourceMap": true,
+    "sourceMap": false,
     "watch": false,
-    "outDir": "./dist",
+    "outFile": "./dist/index.js",
     "declaration": true
 
   },
   "files": [
-    "index.ts",
+    "html-client-commons.ts",
     "./node_modules/@types/react/index.d.ts" , 
-    "./node_modules/core-client-commons/dist/index.d.ts" ,
+    "./node_modules/core-client-commons/dist/index.d.ts"  , 
     "./node_modules/base-commons-module/dist/index.d.ts" 
+
   ]
 
 }

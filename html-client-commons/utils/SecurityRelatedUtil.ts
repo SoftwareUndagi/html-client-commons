@@ -1,5 +1,5 @@
-import { CommonClientData, SecurityData, } from "core-client-commons/index";
-import { CommonCommunicationData } from "core-client-commons/index";
+import { CommonClientData, SecurityData, } from 'core-client-commons/index';
+import { CommonCommunicationData } from 'core-client-commons/index';
 import { ajaxhelper } from './ajaxhelper';
 import { isNull } from './CommonUtils';
 
@@ -14,6 +14,11 @@ export class SecurityRelatedUtil {
      * data security. di mana data akan di keep dalam window
      */
     static USER_LOGIN_INFO_HOLDER_KEY = "application_security_login_info";
+
+    /**
+     * key untuk ip address dari current user
+     */
+    static CURRENT_LOGIN_IP_ADDRESSS_KEY: string = 'application_security_current_ip'
 
     /**
      * untuk menaruh locale yang ada dalam config
@@ -86,10 +91,12 @@ export class SecurityRelatedUtil {
                         
                         return;
                     }
+                    window[SecurityRelatedUtil.CURRENT_LOGIN_IP_ADDRESSS_KEY] = serverData.ipAddress ; 
                     window[SecurityRelatedUtil.SELECTED_LOCALE_KEY] = serverData.localeCode;
                     window[SecurityRelatedUtil.LOCALE_INFO_HOLDER_KEY] = d.locales;
                     window[SecurityRelatedUtil.KEY_FOR_UNIT_OF_WORK] = d.unitOfWork;
                     window[SecurityRelatedUtil.USER_LOGIN_INFO_HOLDER_KEY] = serverData;
+
                     callback(serverData);
                     SecurityRelatedUtil.processLoginData(serverData);
                 }).catch(exc => {
